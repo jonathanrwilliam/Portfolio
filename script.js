@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     lng: 'en',
     debug: true,
     backend: {
-        loadPath: '/locales/{{lng}}/translation.json'
+        loadPath: '/Portfolio/locales/{{lng}}/translation.json'
     }
 }, function(err, t) {
     updateContent();
