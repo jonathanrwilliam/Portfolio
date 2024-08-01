@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan William</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#work" data-i18n="nav.work">Work</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                <li><button id="btn-language" class="btn-language"><img class="icon-language" src="images/languageIcon.png"
+                            alt="language icon">EN</button></li>
+            </ul>
+        </nav>
+        <section class="cover background-effect">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <h2 data-i18n="cover.hello">Hello, I'm Jonathan</h2>
+            <h1 data-i18n="cover.creative">Creative Web &</h1>
+            <h1 data-i18n="cover.ux">UX/UI Designer</h1>
+            <button id="btn-download" class="btn-download">Download CV</button>
+        </section>
+        <div id="scroll-indicator" class="scroll-indicator">
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2 data-i18n="about.title">MY JOURNEY SO FAR</h2>
+            <p data-i18n="about.description"> My career started with a background in Architecture, where I worked for several years. Always curious
+                about technology, I felt the need to go beyond physical plans and projects. I decided to seek an
+                international experience in Portugal, where I recently completed a course in Software Development.
+                During the course, I explored various areas of technology, but it was in UX and UI that I truly found my
+                passion. This field allows me to apply my previous knowledge of design and usability, while engaging in
+                everything I love: interacting with people, creating designs, and designing interfaces, always
+                prioritizing the user experience. Now, after completing my software development course, I am
+                specializing and seeking opportunities in the UX and UI field. </p>
+        </section>
+        <section id="work" class="work">
+            <h2 data-i18n="work.title">EXPLORE MY IDEAS</h2>
+            <div class="project-field project-field-space">
+                <div class="project-field-img">
+                    <img src="images/nature.jpg" alt="Flora Project layout">
+                </div>
+                <div class="project-field-box">
+                    <div class="project-field-description">
+                        <h3 data-i18n="work.floratitle">FLORA</h3>
+                        <p data-i18n="work.floradescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo fugiat, exercitationem
+                            perferendis tempore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-field project-field-space">
+                <div class="project-field-box">
+                    <div class="project-field-description">
+                        <h3 data-i18n="work.player2title">PLAYER 2</h3>
+                        <p data-i18n="work.player2description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo fugiat, exercitationem
+                            perferendis tempore.</p>
+                    </div>
+                </div>
+                <div class="project-field-img">
+                    <img src="images/mountains.jpg" alt="Player two project layout">
+                </div>
+            </div>
+            <div class="project-field">
+                <div class="project-field-img">
+                    <img src="images/snow.jpg" alt="Prisma project layout">
+                </div>
+                <div class="project-field-box">
+                    <div class="project-field-description">
+                        <h3 data-i18n="work.newtitle">NOVO PROJETO</h3>
+                        <p data-i18n="work.newdescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo fugiat, exercitationem
+                            perferendis tempore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="get-in-touch">
+            <h2 data-i18n="contact.title">Get in Touch</h2>
+            <p data-i18n="contact.description">I hope you enjoyed the visit! I am open to receiving your feedback and, of course, I would be very happy
+                if we have the opportunity to discuss future projects!</p>
+        </div>
+        <div class="contacts">
+            <a href="https://www.linkedin.com/in/jonathanrwilliam" target="_blank" class="contacts-linkedin">
+                <i class="bi bi-linkedin"></i>
+                <p>in/jonathanrwilliam</p>
+            </a>
+            <a href="mailto:jonathan.rwilliam@gmail.com" class="contacts-email">
+                <i class="bi bi-envelope"></i>
+                <p>jonathan.rwilliam@gmail.com</p>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/i18next@20.6.1/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
+</body>
+
+</html>

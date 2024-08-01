@@ -1,0 +1,29 @@
+{
+    "nav": {
+      "about": "About",
+      "work": "Work",
+      "contact": "Contact"
+    },
+    "cover": {
+      "hello": "Hello, I'm Jonathan",
+      "creative": "Creative Web &",
+      "ux": "UX/UI Designer"
+    },
+    "about": {
+      "title": "MY JOURNEY SO FAR",
+      "description": "My career started with a background in Architecture, where I worked for several years. Always curious about technology, I felt the need to go beyond physical plans and projects. I decided to seek an international experience in Portugal, where I recently completed a course in Software Development. During the course, I explored various areas of technology, but it was in UX and UI that I truly found my passion. This field allows me to apply my previous knowledge of design and usability, while engaging in everything I love: interacting with people, creating designs, and designing interfaces, always prioritizing the user experience. Now, after completing my software development course, I am specializing and seeking opportunities in the UX and UI field."
+    },
+    "work": {
+      "title": "EXPLORE MY IDEAS",
+      "floratitle": "Flora",
+      "floradescription": "A beautiful project about smart plants",
+      "player2title": "PLAYER 2",
+      "player2description": "Dating app for gamers",
+      "newtitle": "NEW PROJECT",
+      "newdescription": "I dont know what Im gonna do here"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "I hope you enjoyed the visit! I am open to receiving your feedback and, of course, I would be very happy if we have the opportunity to discuss future projects!"
+    }
+  }

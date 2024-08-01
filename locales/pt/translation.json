@@ -1,0 +1,29 @@
+{
+    "nav": {
+      "about": "Sobre",
+      "work": "Projetos",
+      "contact": "Contato"
+    },
+    "cover": {
+      "hello": "Olá, sou o Jonathan",
+      "creative": "Designer Criativo",
+      "ux": "de WEB e UX/UI"
+    },
+    "about": {
+      "title": "MINHA TRAJETÓRIA",
+      "description": "Minha carreira começou com uma formação em Arquitetura, onde atuei durante alguns anos. Sempre curioso por tecnologia, senti que precisava ir além das plantas e projetos físicos. Decidi então buscar uma experiência internacional em Portugal, onde recentemente finalizei meu curso em Desenvolvimento de Software. Durante o curso, explorei diversas áreas da tecnologia, mas foi o campo de UX e UI que realmente despertou minha paixão. Essa área me permite aplicar meus conhecimentos prévios de design e usabilidade, além de atuar com tudo o que mais amo: interação com pessoas, criação de designs e projeção de interfaces, sempre priorizando a experiência do usuário. Agora, após concluir o curso de desenvolvimento de software, estou me especializando e buscando oportunidades na área de UX e UI"
+    },
+    "work": {
+      "title": "EXPLORE MINHAS IDEIAS",
+      "floratitle": "Flora",
+      "floradescription": "Um projeto lindo sobre plantas inteligentes",
+      "player2title": "PLAYER 2",
+      "player2description": "App de encontros para gamers",
+      "newtitle": "Novo Projeto",
+      "newdescription": "Não sei o que escrever aqui"
+    },
+    "contact": {
+      "title": "ENTRAR EM CONTATO",
+      "description": "Espero que tenha aproveitado a visita! Estou à disposição para receber seu feedback e, claro, ficarei muito feliz se tiver a oportunidade de discutirmos sobre os futuros projetos!"
+    }
+  }
