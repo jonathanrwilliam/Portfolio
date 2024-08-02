@@ -75,3 +75,24 @@ document.addEventListener('DOMContentLoaded', function() {
       document.body.removeChild(tempLink);
   });
 });
+
+//show text block
+
+document.addEventListener('DOMContentLoaded', function() {
+  const textBlocks = document.querySelectorAll('.text-block');
+
+  function checkVisibility() {
+      const windowHeight = window.innerHeight;
+      textBlocks.forEach(block => {
+          const rect = block.getBoundingClientRect();
+          if (rect.top < windowHeight && rect.bottom > 0) {
+              block.classList.add('visible');
+          } else {
+              block.classList.remove('visible');
+          }
+      });
+  }
+
+  checkVisibility();
+  window.addEventListener('scroll', checkVisibility);
+});
