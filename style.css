@@ -391,7 +391,7 @@ footer {
     }
 
     .project-field {
-        height: 300px;
+        height: 450px;
     }
 
     .get-in-touch h2 {
@@ -401,6 +401,10 @@ footer {
 }
 
 @media (max-width: 500px) {
+
+    .about {
+        height: auto;
+    }
 
     .contacts-email,
     .contacts-linkedin {
