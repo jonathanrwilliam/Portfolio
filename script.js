@@ -58,15 +58,15 @@ document.addEventListener('DOMContentLoaded', function() {
       
       var pdfUrl;
       if (language === 'EN') {
-          pdfUrl = 'documents/JonathanRosa-EN.pdf';
+          pdfUrl = 'documents/JonathanWilliam-EN.pdf';
       } else {
-          pdfUrl = 'documents/JonathanRosa-PT.pdf';
+          pdfUrl = 'documents/JonathanWilliam-PT.pdf';
       }
       
       var tempLink = document.createElement('a');
       tempLink.style.display = 'none';
       tempLink.href = pdfUrl;
-      tempLink.setAttribute('download', `JonathanRosa-${language}.pdf`);
+      tempLink.setAttribute('download', `JonathanWilliam-${language}.pdf`);
       
       document.body.appendChild(tempLink);
       
